@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 const ShortUniqueId = require("short-unique-id");
 const uid = new ShortUniqueId({ length: 4 });
 const cookieParser = require("cookie-parser");
+require("dotenv").config();
 //Objects from models
 
 const facultyObj = require("./models/faculty");
@@ -44,7 +45,8 @@ app.use(
 );
 
 // CONNECTING SERVER TO MONGODB DATABASE --------------------------------------------------------
-mongoose.connect("mongodb://127.0.0.1:27017/LMS");
+// mongoose.connect("mongodb://127.0.0.1:27017/LMS");
+mongoose.connect(process.env.MONGO_URL);
 var db = mongoose.connection;
 //checking
 
