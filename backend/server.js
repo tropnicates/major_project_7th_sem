@@ -28,6 +28,7 @@ app.use(cookieParser());
 // app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 // });
+// MAK
 
 app.use(bodyParser.json());
 app.use(
@@ -320,13 +321,14 @@ app.post("/courses/:data", async (req, res) => {
 app.post("/attendence/:course", async (req, res) => {
   const students = await studentObj.find();
 
-  const course = req.params.course=='ECE'?'Electronics and Communication Engineering':"Computer Science and Engineering"
+  const course =
+    req.params.course == "ECE"
+      ? "Electronics and Communication Engineering"
+      : "Computer Science and Engineering";
 
-  const data = students.filter(
-    (a) => a.Branch == course
-  );
+  const data = students.filter((a) => a.Branch == course);
   // console.log(data);
-  res.json(data)
+  res.json(data);
 });
 
 const PORT = process.env.PORT || 5000;
