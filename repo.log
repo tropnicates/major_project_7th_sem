@@ -1,0 +1,237 @@
+1675754877|Mohit Kumar|A|/groupMem.txt
+1676371666|Mohit Kumar|A|/AdminLogin/adminL.html
+1676371666|Mohit Kumar|A|/AdminLogin/styles.css
+1676373638|Mohit Kumar|A|/.gitignore
+1676373638|Mohit Kumar|D|/AdminLogin/adminL.html
+1676373638|Mohit Kumar|D|/AdminLogin/styles.css
+1676373638|Mohit Kumar|A|/README.md
+1676373638|Mohit Kumar|A|/package-lock.json
+1676373638|Mohit Kumar|A|/package.json
+1676373638|Mohit Kumar|A|/public/index.html
+1676373638|Mohit Kumar|A|/public/manifest.json
+1676373638|Mohit Kumar|A|/src/App.css
+1676373638|Mohit Kumar|A|/src/App.js
+1676373638|Mohit Kumar|A|/src/components/AdminLogin.jsx
+1676373638|Mohit Kumar|A|/src/index.js
+1676374850|AbhishekChorotiya|M|/package-lock.json
+1676374850|AbhishekChorotiya|M|/package.json
+1676374850|AbhishekChorotiya|A|/public/favicon.ico
+1676374850|AbhishekChorotiya|M|/public/index.html
+1676374850|AbhishekChorotiya|A|/public/logo192.png
+1676374850|AbhishekChorotiya|A|/public/logo512.png
+1676374850|AbhishekChorotiya|A|/public/robots.txt
+1676374850|AbhishekChorotiya|M|/src/App.css
+1676374850|AbhishekChorotiya|M|/src/App.js
+1676374850|AbhishekChorotiya|A|/src/App.test.js
+1676374850|AbhishekChorotiya|A|/src/components/admin/admin_dash.css
+1676374850|AbhishekChorotiya|A|/src/components/admin/admin_dash.js
+1676374850|AbhishekChorotiya|A|/src/components/admin/admin_login/admin_login.js
+1676374850|AbhishekChorotiya|A|/src/components/main_page/cards/card.css
+1676374850|AbhishekChorotiya|A|/src/components/main_page/cards/card.js
+1676374850|AbhishekChorotiya|A|/src/components/main_page/main_page.css
+1676374850|AbhishekChorotiya|A|/src/components/main_page/main_page.js
+1676374850|AbhishekChorotiya|A|/src/index.css
+1676374850|AbhishekChorotiya|M|/src/index.js
+1676374850|AbhishekChorotiya|A|/src/logo.svg
+1676374850|AbhishekChorotiya|A|/src/reportWebVitals.js
+1676374850|AbhishekChorotiya|A|/src/setupTests.js
+1676378870|AbhishekChorotiya|M|/.gitignore
+1676378870|AbhishekChorotiya|A|/backend/package-lock.json
+1676378870|AbhishekChorotiya|A|/backend/package.json
+1676378870|AbhishekChorotiya|A|/backend/server.js
+1676382584|Mohit Kumar|M|/src/App.js
+1676382584|Mohit Kumar|D|/src/App.test.js
+1676382584|Mohit Kumar|A|/src/components/faculty/facultyLogin/FacultyLogin.js
+1676383158|Mohit Kumar|M|/src/index.css
+1676468671|AbhishekChorotiya|M|/backend/package-lock.json
+1676468671|AbhishekChorotiya|M|/backend/package.json
+1676468671|AbhishekChorotiya|M|/backend/server.js
+1676468816|AbhishekChorotiya|M|/src/App.js
+1676468816|AbhishekChorotiya|M|/src/components/admin/admin_login/admin_login.js
+1676468858|AbhishekChorotiya|M|/src/components/admin/admin_login/admin_login.js
+1676480367|Mohit Kumar|M|/src/App.css
+1676480367|Mohit Kumar|M|/src/App.js
+1676480367|Mohit Kumar|A|/src/components/faculty/facultyReg/FacultyReg.js
+1676480367|Mohit Kumar|A|/src/components/faculty/facultyReg/FacultyReg.module.css
+1676481651|Mohit Kumar|M|/src/components/main_page/main_page.js
+1676481651|Mohit Kumar|D|/src/logo.svg
+1676498806|Mohit Kumar|M|/src/App.css
+1676498806|Mohit Kumar|M|/src/components/admin/admin_dash.js
+1676498806|Mohit Kumar|M|/src/components/faculty/facultyReg/FacultyReg.js
+1676498806|Mohit Kumar|M|/src/components/faculty/facultyReg/FacultyReg.module.css
+1677311302|Mohit Kumar|M|/src/components/faculty/facultyReg/FacultyReg.js
+1677474063|Mohit Kumar|M|/package-lock.json
+1677474063|Mohit Kumar|M|/package.json
+1677474063|Mohit Kumar|M|/src/App.js
+1677474063|Mohit Kumar|A|/src/components/student_dashboard/StudentDash.js
+1677474063|Mohit Kumar|A|/src/components/student_dashboard/StudentDash.module.css
+1677474159|Mohit Kumar|M|/src/components/main_page/main_page.js
+1681822904|AbhishekChorotiya|A|/backend/middleware/facultyAuth.js
+1681822904|AbhishekChorotiya|A|/backend/models/faculty.js
+1681822904|AbhishekChorotiya|A|/backend/models/quiz.js
+1681822904|AbhishekChorotiya|M|/backend/package-lock.json
+1681822904|AbhishekChorotiya|M|/backend/package.json
+1681822904|AbhishekChorotiya|M|/backend/server.js
+1681822904|AbhishekChorotiya|M|/package-lock.json
+1681822904|AbhishekChorotiya|M|/package.json
+1681822904|AbhishekChorotiya|M|/src/App.js
+1681822904|AbhishekChorotiya|A|/src/App.test.js
+1681822904|AbhishekChorotiya|M|/src/components/admin/admin_dash.js
+1681822904|AbhishekChorotiya|A|/src/components/faculty/facultyDashboard/facultyDash.css
+1681822904|AbhishekChorotiya|A|/src/components/faculty/facultyDashboard/facultyDash.js
+1681822904|AbhishekChorotiya|M|/src/components/faculty/facultyLogin/FacultyLogin.js
+1681822904|AbhishekChorotiya|M|/src/components/faculty/facultyReg/FacultyReg.js
+1681822904|AbhishekChorotiya|A|/src/components/faculty/registerStudents/regStudents.js
+1681822904|AbhishekChorotiya|M|/src/components/main_page/main_page.js
+1681822904|AbhishekChorotiya|A|/src/logo.svg
+1681848214|Mohit Kumar|M|/backend/server.js
+1681848214|Mohit Kumar|M|/src/App.js
+1681848214|Mohit Kumar|A|/src/components/faculty/quizzForm/Quizz.module.css
+1681848214|Mohit Kumar|A|/src/components/faculty/quizzForm/QuizzForm.js
+1681848214|Mohit Kumar|D|/src/index.css
+1681848214|Mohit Kumar|M|/src/index.js
+1681848376|AbhishekChorotiya|M|/backend/models/quiz.js
+1681848376|AbhishekChorotiya|M|/src/App.js
+1681848376|AbhishekChorotiya|A|/src/components/quiz/addQue.css
+1681848376|AbhishekChorotiya|A|/src/components/quiz/addQue.js
+1681848767|AbhishekChorotiya|M|/backend/server.js
+1681848767|AbhishekChorotiya|M|/src/App.js
+1681848767|AbhishekChorotiya|A|/src/components/faculty/quizzForm/Quizz.module.css
+1681848767|AbhishekChorotiya|A|/src/components/faculty/quizzForm/QuizzForm.js
+1681848767|AbhishekChorotiya|D|/src/index.css
+1681848767|AbhishekChorotiya|M|/src/index.js
+1682095831|AbhishekChorotiya|M|/backend/models/quiz.js
+1682095831|AbhishekChorotiya|M|/backend/server.js
+1682095831|AbhishekChorotiya|M|/src/App.js
+1682095831|AbhishekChorotiya|M|/src/components/faculty/facultyDashboard/facultyDash.js
+1682095831|AbhishekChorotiya|A|/src/components/faculty/quizzForm/inActive.js
+1682095831|AbhishekChorotiya|A|/src/components/faculty/quizzForm/quizCard.js
+1682095831|AbhishekChorotiya|A|/src/components/faculty/quizzForm/quizCard.module.css
+1682095831|AbhishekChorotiya|M|/src/components/main_page/main_page.js
+1682095831|AbhishekChorotiya|M|/src/components/quiz/addQue.js
+1682096107|Mohit Kumar|M|/src/App.js
+1682098607|AbhishekChorotiya|M|/backend/server.js
+1682098607|AbhishekChorotiya|M|/src/components/quiz/addQue.js
+1682098607|AbhishekChorotiya|M|/src/index.js
+1682100929|Mohit Kumar|M|/src/components/faculty/quizzForm/inActive.js
+1682100929|Mohit Kumar|M|/src/components/faculty/quizzForm/quizCard.js
+1682100929|Mohit Kumar|M|/src/components/faculty/quizzForm/quizCard.module.css
+1682106545|AbhishekChorotiya|M|/backend/models/quiz.js
+1682106545|AbhishekChorotiya|M|/package-lock.json
+1682106545|AbhishekChorotiya|M|/package.json
+1682106545|AbhishekChorotiya|M|/src/App.js
+1682106545|AbhishekChorotiya|M|/src/components/student_dashboard/StudentDash.js
+1682106640|AbhishekChorotiya|M|/src/components/student_dashboard/StudentDash.js
+1682116931|Mohit Kumar|M|/src/App.js
+1682116931|Mohit Kumar|A|/src/components/student/QuizComp.module.css
+1682116931|Mohit Kumar|A|/src/components/student/cards/option.js
+1682116931|Mohit Kumar|A|/src/components/student/cards/queMap.js
+1682116931|Mohit Kumar|A|/src/components/student/cards/quizComp.js
+1682116931|Mohit Kumar|A|/src/components/student/quizPage.js
+1682117266|AbhishekChorotiya|A|/backend/middleware/studentAuth.js
+1682117266|AbhishekChorotiya|A|/backend/models/student.js
+1682117266|AbhishekChorotiya|M|/backend/server.js
+1682117266|AbhishekChorotiya|M|/src/App.js
+1682117266|AbhishekChorotiya|M|/src/components/faculty/registerStudents/regStudents.js
+1682117266|AbhishekChorotiya|A|/src/components/student/studentLogin.js
+1682117266|AbhishekChorotiya|M|/src/components/student_dashboard/StudentDash.js
+1682169338|AbhishekChorotiya|M|/backend/server.js
+1682169338|AbhishekChorotiya|M|/src/App.js
+1682169338|AbhishekChorotiya|M|/src/components/faculty/quizzForm/inActive.js
+1682169338|AbhishekChorotiya|M|/src/components/faculty/quizzForm/quizCard.js
+1682169338|AbhishekChorotiya|M|/src/components/faculty/quizzForm/quizCard.module.css
+1682169338|AbhishekChorotiya|A|/src/components/student/quiz/active.js
+1682169338|AbhishekChorotiya|A|/src/components/student/quiz/quizCard.js
+1682169338|AbhishekChorotiya|A|/src/components/student/quiz/quizCard.module.css
+1682172927|AbhishekChorotiya|M|/backend/server.js
+1682172927|AbhishekChorotiya|M|/src/App.js
+1682172927|AbhishekChorotiya|M|/src/components/student/quiz/quizCard.js
+1682172927|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1682182427|Mohit Kumar|M|/src/App.js
+1682183434|AbhishekChorotiya|M|/backend/server.js
+1682183434|AbhishekChorotiya|M|/src/components/student/QuizComp.module.css
+1682183434|AbhishekChorotiya|M|/src/components/student/cards/option.js
+1682183434|AbhishekChorotiya|M|/src/components/student/cards/queMap.js
+1682183434|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1682199380|Mohit Kumar|M|/backend/server.js
+1682199380|Mohit Kumar|M|/src/App.js
+1682199380|Mohit Kumar|M|/src/components/faculty/quizzForm/Quizz.module.css
+1682199380|Mohit Kumar|M|/src/components/faculty/quizzForm/inActive.js
+1682199380|Mohit Kumar|M|/src/components/faculty/quizzForm/quizCard.js
+1682199380|Mohit Kumar|M|/src/components/faculty/quizzForm/quizCard.module.css
+1682199380|Mohit Kumar|M|/src/components/student/QuizComp.module.css
+1682199380|Mohit Kumar|M|/src/components/student/quiz/active.js
+1682199380|Mohit Kumar|M|/src/components/student/quiz/quizCard.js
+1682199380|Mohit Kumar|M|/src/components/student/quiz/quizCard.module.css
+1682199606|Mohit Kumar|M|/src/components/faculty/quizzForm/quizCard.js
+1682199606|Mohit Kumar|M|/src/components/student/quiz/quizCard.js
+1682199656|AbhishekChorotiya|M|/backend/middleware/facultyAuth.js
+1682199656|AbhishekChorotiya|M|/backend/server.js
+1682199656|AbhishekChorotiya|M|/src/components/faculty/quizzForm/QuizzForm.js
+1682199830|AbhishekChorotiya|M|/backend/server.js
+1682200449|Mohit Kumar|M|/src/components/faculty/quizzForm/Quizz.module.css
+1682200516|AbhishekChorotiya|M|/src/components/faculty/quizzForm/inActive.js
+1682200516|AbhishekChorotiya|M|/src/components/faculty/quizzForm/quizCard.js
+1682200667|AbhishekChorotiya|M|/src/components/student/quiz/active.js
+1682200667|AbhishekChorotiya|M|/src/components/student/quiz/quizCard.js
+1682202002|Mohit Kumar|M|/src/components/student/quiz/active.js
+1682207007|Mohit Kumar|M|/src/components/student_dashboard/StudentDash.js
+1682235306|AbhishekChorotiya|M|/src/components/student/cards/option.js
+1682235306|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1682240963|AbhishekChorotiya|M|/backend/middleware/studentAuth.js
+1682240963|AbhishekChorotiya|A|/backend/models/responses.js
+1682240963|AbhishekChorotiya|M|/backend/server.js
+1682240963|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1682243118|AbhishekChorotiya|M|/backend/models/responses.js
+1682243118|AbhishekChorotiya|M|/backend/server.js
+1682243118|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1682372619|Mohit Kumar|M|/package-lock.json
+1682372619|Mohit Kumar|M|/package.json
+1682372619|Mohit Kumar|A|/public/pictures/LOGO.png
+1682372619|Mohit Kumar|A|/public/pictures/female_awatar.svg
+1682372619|Mohit Kumar|A|/public/pictures/male_awatar.svg
+1682372619|Mohit Kumar|M|/src/components/student/quiz/active.js
+1682372619|Mohit Kumar|M|/src/components/student_dashboard/StudentDash.js
+1682372619|Mohit Kumar|M|/src/components/student_dashboard/StudentDash.module.css
+1682372619|Mohit Kumar|A|/src/components/student_dashboard/pages/Dashboard.js
+1682372619|Mohit Kumar|A|/src/components/student_dashboard/pages/Test.js
+1682372805|AbhishekChorotiya|M|/backend/models/responses.js
+1682372805|AbhishekChorotiya|A|/backend/models/result.js
+1682372805|AbhishekChorotiya|M|/backend/server.js
+1682372805|AbhishekChorotiya|M|/package-lock.json
+1682372805|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1685034794|AbhishekChorotiya|A|/backend/models/courses.js
+1685034794|AbhishekChorotiya|M|/backend/server.js
+1685034794|AbhishekChorotiya|M|/src/components/admin/admin_dash.js
+1685034794|AbhishekChorotiya|M|/src/components/student/quizPage.js
+1685035440|AbhishekChorotiya|M|/backend/server.js
+1685035531|Mohit Kumar|M|/backend/server.js
+1685035531|Mohit Kumar|M|/src/App.js
+1685035531|Mohit Kumar|M|/src/components/admin/admin_dash.js
+1685035531|Mohit Kumar|A|/src/components/course/Styles.module.css
+1685035531|Mohit Kumar|A|/src/components/course/addCourse.js
+1685035531|Mohit Kumar|M|/src/components/faculty/facultyDashboard/facultyDash.js
+1685035531|Mohit Kumar|M|/src/components/student/quiz/quizCard.module.css
+1685036304|AbhishekChorotiya|M|/src/components/admin/admin_dash.js
+1685036304|AbhishekChorotiya|M|/src/components/course/addCourse.js
+1685099033|Mohit Kumar|M|/src/App.js
+1685099033|Mohit Kumar|M|/src/components/admin/admin_dash.js
+1685099033|Mohit Kumar|A|/src/components/faculty/attendance/attendance.module.css
+1685099033|Mohit Kumar|A|/src/components/faculty/attendance/courseCard.js
+1685099033|Mohit Kumar|A|/src/components/faculty/attendance/manageAttendance.js
+1685099033|Mohit Kumar|M|/src/components/faculty/facultyDashboard/facultyDash.js
+1685101655|Mohit Kumar|M|/src/App.js
+1685101655|Mohit Kumar|M|/src/components/faculty/attendance/attendance.module.css
+1685101655|Mohit Kumar|M|/src/components/faculty/attendance/courseCard.js
+1685101655|Mohit Kumar|A|/src/components/faculty/attendance/takeAttendance.js
+1685129383|Mohit Kumar|M|/src/components/faculty/facultyDashboard/facultyDash.js
+1685129391|AbhishekChorotiya|M|/backend/models/student.js
+1685129391|AbhishekChorotiya|M|/backend/server.js
+1685129391|AbhishekChorotiya|M|/src/components/faculty/attendance/manageAttendance.js
+1685129391|AbhishekChorotiya|M|/src/components/faculty/facultyDashboard/facultyDash.js
+1685131772|AbhishekChorotiya|M|/backend/server.js
+1685131772|AbhishekChorotiya|M|/src/components/faculty/attendance/manageAttendance.js
+1685134434|AbhishekChorotiya|M|/backend/server.js
+1685134434|AbhishekChorotiya|M|/src/components/faculty/attendance/courseCard.js
+1685134434|AbhishekChorotiya|M|/src/components/faculty/attendance/manageAttendance.js
+1685134434|AbhishekChorotiya|M|/src/components/faculty/attendance/takeAttendance.js

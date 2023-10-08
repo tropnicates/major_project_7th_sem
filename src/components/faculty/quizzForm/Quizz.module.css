@@ -1,0 +1,34 @@
+.inp{
+    width: 30rem;
+    height: 3rem;
+    padding: 0;
+    border: none;
+    outline: none;
+    border-bottom: 0.1rem solid rgb(10, 10, 107);
+    text-decoration: bold;
+    font-size: 2rem;
+}
+
+.QuizList {
+    width: 100%;
+    height: auto;
+    margin: 1rem;
+}
+.quizTable{
+    width: 100%;
+    height: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+.quizTable th{
+    height: 2rem;
+    background-color: rgb(18, 59, 94);
+    color: #fff;
+}
+
+.quizTable td{
+    border: 0.1rem solid grey;
+    height: 2rem;
+}
+

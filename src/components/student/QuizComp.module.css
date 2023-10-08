@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: inherit;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Global */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav {
+    width: 100%;
+    height: 6rem;
+    background: linear-gradient(90deg, #172a4d 0%, rgba(25, 26, 77, 1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+
+.nav span {
+    color: #fff;
+}
+
+.Panel {
+    display: flex;
+    height: calc(100% - 6rem);
+    width: 100%;
+}
+
+.sidePanel {
+    display: flex;
+    flex-direction: column;
+    width: 28rem;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+    border-left: solid #172a4d 0.11rem;
+}
+
+/* quizz panel */
+.quizPanel{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.quizFrame{
+    width: auto;
+    height: auto;
+    margin: 1rem;
+}
+.quesTitle{
+    display: flex;
+    margin: 1rem;
+}
+.queNo{
+    margin-right: 0.6rem;
+}
+.quesText p{
+    text-align: left;
+}
+.choices{
+    display: flex;
+    margin: 1rem;
+}
+input{
+    margin-right: 0.6rem;
+}
+
+/* quesControl */
+.quesControl{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+.prevQues, .nextQues {
+    width: 10rem;
+    height: 3rem;
+    background: linear-gradient(90deg, #172a4d 0%, rgba(25, 26, 77, 1) 100%);    
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+}
+
+.prevQues:hover{
+    background: linear-gradient(90deg, #1d3767 0%, rgb(162, 162, 185) 100%);
+    /* animation:1s ease; */
+}
+.nextQues:hover{
+    background: linear-gradient(90deg, #8796b2 0%, rgb(18, 18, 82) 100%);
+}
+
+/* queMap card */
+.mapBox{
+    min-width:25px;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    height: auto;
+    display: flex;
+    margin: 0.8rem;
+}
+.queMap{
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(255, 119, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.2rem;
+    cursor: pointer;
+}
+
+.submitQuiz{
+    width: 10rem;
+    height: 2.5rem;
+    margin-bottom: 3rem;
+    background: linear-gradient(90deg, #172a4d 0%, rgba(25, 26, 77, 1) 100%);
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+}

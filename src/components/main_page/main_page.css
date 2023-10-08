@@ -1,0 +1,36 @@
+.outter{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    height: 100vh;
+}
+.nav_text{
+    align-self: center;
+    font-size: 2rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.navbar{
+    display: flex;
+    /* border: 2px solid blue; */
+    height: 6rem;
+    justify-content: center;
+    background: linear-gradient(90deg, rgba(23,42,77,1) 0%, rgba(25,26,77,1) 100%);
+}
+.content{
+    display: flex;
+    height: fit-content;
+    flex: 1;
+    justify-content: center;
+}
+
+.heading{
+    position: absolute;
+    color: #32325d;
+    font-family: 'Open Sans', sans-serif;
+    justify-self: center;
+    text-align: center;
+    height: fit-content;
+    margin-top: 5rem;
+}

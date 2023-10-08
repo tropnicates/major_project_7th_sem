@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: inherit;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Global */
+.center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* semester-box */
+.semesterBox {
+    position: absolute;
+    top: 1.5rem;
+    right: 8rem;
+    height: 3rem;
+    width: 7rem;
+    border: solid #172a4d 0.1rem;
+    border-radius: 0.4rem;
+
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.semesterBox span {
+    margin: .06rem;
+}
+
+#semHead {
+    height: 1.7rem;
+    justify-content: center;
+}
+
+.student_logout{
+    justify-self: right;
+    position: absolute;
+    margin: 3rem;
+}
+
+/* --------------- */
+.nav {
+    width: 100%;
+    height: 6rem;
+    background: linear-gradient(90deg, #172a4d 0%, rgba(25, 26, 77, 1) 100%);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.nav span{
+    color: #fff;
+    justify-self: center;
+    align-self: center;
+    position: absolute;
+}
+
+/* logo */
+.nav img{
+    height: 6.5rem;
+    position: absolute;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.front {
+    display: flex;
+    height: calc(100% - 6rem);
+    width: 100%;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    align-items: center;
+    justify-content: center;
+    border-right: solid #19214d 0.11rem;
+    height: 100%;
+    background-color: #172a4d;
+}
+
+.options button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92%;
+    height: 2.5rem;
+    border: none;
+    margin: 0.6rem 0 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    background: none;
+    border: solid grey 0.1rem;
+    border-radius: 0.2rem;
+    background: white;
+    border-color: white;
+}
+
+.options button:hover {
+    background-color: #e8ebee;
+    transition: ease-in 0.1s;
+}
+
+.dashboard {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+/* --------------profile---------- */
+
+.studentInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30rem;
+    height: 90%;
+    border-radius: 0.2rem;
+    align-self: center;
+    margin-left: 2.5rem;
+    border: solid #19214d 0.1rem;
+
+}
+
+.statistics {
+    width: calc(100% - 35rem);
+    height: 90%;
+    /* background-color: red; */
+    border: 1px solid black;
+}
+
+hr {
+    width: 70%;
+    height: 0.1rem;
+}
+
+.profile {
+    height: 100%;
+    width: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile1 {
+    width: 100%;
+    height: 30%;
+    /* background-color: ; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    width: 8rem;
+    height: 8rem;
+    
+}
+.font_awesome{
+    height: 90%;
+    width: 90%;
+}
+
+.profile2 {
+    width: 80%;
+    height: 60%;
+   
+}
+.profile_table{
+    height: 60%;
+    margin-top: 1rem;
+
+}
+.profile_table tr td{
+    text-align: left;
+    padding-left: 1rem;    
+}
+
+.leftcell{
+    background-color: #19214d;
+    color: #fff;
+}
+.rightcell{
+    background-color: #e9ecf0;
+    
+}
+
+.infoBox {
+    width: 80%;
+    height: 1rem;
+    margin: 1rem 0 0 0;
+    /* border: sol/id grey 0.1rem; */
+    border-radius: 0.2rem;
+}
+
+/* --------------------------- */

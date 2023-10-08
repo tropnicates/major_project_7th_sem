@@ -1,0 +1,66 @@
+.content{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    flex: 1;
+    /* justify-content: center; */
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    height:fit-content;
+    width: 6rem;
+    padding: 3px;
+    border: 1px solid black;
+    background-color: rgb(222, 238, 252);
+    margin: 3px;
+}
+.card button{
+    cursor: pointer;
+}
+.attendanceBox{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 6px;
+}
+
+.TakeAttendance{
+    height: fit-content;
+    width: 100%;
+}
+.TakeAttendance table{
+    width: 100%;
+    height: auto;
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    text-align: center;
+}
+.TakeAttendance th {
+    height: 2rem;
+    background-color: rgb(18, 59, 94);
+    color: #fff;
+}
+
+.TakeAttendance td {
+    border: 0.1rem solid grey;
+    height: 2rem;
+}
+
+.submitAttendance{
+    margin-top: 2rem;
+}
+.submitAttendance button{
+    width: 8rem;
+    height: 2.5rem;
+    background-color: rgb(18, 59, 94);
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+.submitAttendance button:hover{
+    background-color: rgb(35, 82, 124);;
+    transition: ease 0.03s;
+}

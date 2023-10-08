@@ -1,0 +1,23 @@
+.button_div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    /* border: 2px solid green; */
+    height: fit-content;
+    align-self: center;
+}
+
+.button_div a{
+    background: linear-gradient(90deg, rgba(23,42,77,1) 0%, rgba(25,26,77,1) 100%);    
+    color: white;
+    border: 0.0625rem solid rgba(0,0,0,.05);
+    margin-top: 2rem;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0,0,0,.07)!important;    
+    border-radius: 0.2rem;
+    width: 14rem;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+}
