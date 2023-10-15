@@ -73,13 +73,13 @@ const handleFile = (e)=>{
     const ws = wb.Sheets[wsName]
     var datafile = XLSX.utils.sheet_to_json(ws)
     
-    console.log(datafile)
-    const arr = datafile.map((a)=>a.studentID)
     datafile = objectKeysToLowerCase(datafile)
-    console.log(arr)
+    console.log(datafile)
     setObjData(datafile)
 
-    console.log("data")
+    const arr = Object.values(datafile)
+
+    console.log(arr)
 
     const post_data = {
       courseId,
