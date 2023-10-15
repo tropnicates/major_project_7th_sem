@@ -8,6 +8,7 @@ const RegStudents = ()=>{
 
     const handleFile = (e)=>{
 
+        console.log("dklf")
        let file = e.target.files[0];
        
        let reader = new FileReader();
@@ -16,6 +17,7 @@ const RegStudents = ()=>{
        reader.onload= (e)=>{
             setBufferData(e.target.result);
        }
+
 
     }
 
@@ -34,9 +36,10 @@ const RegStudents = ()=>{
         const wsName = wb.SheetNames[0]
         const ws = wb.Sheets[wsName]
         var data = XLSX.utils.sheet_to_json(ws)
-        setObjData(data)
         
+        console.log(data)
         data = objectKeysToLowerCase(data)
+        setObjData(data)
         postData(data)
     }
 

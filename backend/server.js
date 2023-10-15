@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 const ShortUniqueId = require("short-unique-id");
 const uid = new ShortUniqueId({ length: 4 });
 const cookieParser = require("cookie-parser");
+require("dotenv").config();
 //Objects from models
 
 const facultyObj = require("./models/faculty");
@@ -28,6 +29,7 @@ app.use(cookieParser());
 // app.get('/', (req, res) => {
 //   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 // });
+// MAK
 
 app.use(bodyParser.json());
 app.use(
@@ -44,6 +46,7 @@ app.use(
 
 // CONNECTING SERVER TO MONGODB DATABASE --------------------------------------------------------
 mongoose.connect("mongodb://127.0.0.1:27017/LMS");
+// mongoose.connect(process.env.MONGO_URL);
 var db = mongoose.connection;
 //checking
 
@@ -287,7 +290,9 @@ app.post("/addCourse", async (req, res) => {
   const Semester = req.body.semester;
   const Branch = req.body.branch;
   const FacultyId = req.body.facultyId;
+  const students = req.body.students;
 
+  console.log(req.body)
   const check = await courseObj.findOne({
     CourseId,
   });
@@ -300,6 +305,7 @@ app.post("/addCourse", async (req, res) => {
       Semester,
       FacultyId,
       Branch,
+      students
     });
 
     await course.save();
@@ -320,13 +326,14 @@ app.post("/courses/:data", async (req, res) => {
 app.post("/attendence/:course", async (req, res) => {
   const students = await studentObj.find();
 
-  const course = req.params.course=='ECE'?'Electronics and Communication Engineering':"Computer Science and Engineering"
+  const course =
+    req.params.course == "ECE"
+      ? "Electronics and Communication Engineering"
+      : "Computer Science and Engineering";
 
-  const data = students.filter(
-    (a) => a.Branch == course
-  );
+  const data = students.filter((a) => a.Branch == course);
   // console.log(data);
-  res.json(data)
+  res.json(data);
 });
 
 const PORT = process.env.PORT || 5000;

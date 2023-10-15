@@ -19,7 +19,12 @@ const courseSchema = new mongoose.Schema({
     },
     FacultyId: {
         type: String
-    }
+    },
+    students:[{
+        studentid:{
+            type:String,
+        }
+    }]
 })
 
 const courseObj = mongoose.model('courses',courseSchema)

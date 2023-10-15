@@ -1,6 +1,8 @@
-import React from "react";
+// import React from "react";
 import Styles from "./Styles.module.css";
 import { useState } from "react";
+import * as XLSX from 'xlsx'
+
 let AddCourse = () => {
   const [courseId, setCourseid] = useState("");
   const [courseName, setCourseName] = useState("");
@@ -8,6 +10,9 @@ let AddCourse = () => {
   const [branch, setBranch] = useState("");
   const [semester, setSemester] = useState("");
   const [facultyId, setFacultyId] = useState("");
+
+  const [bufferData, setBufferData] = useState(null);
+  const [objData, setObjData] = useState(null);
 
   const handleChange = (e) => {
     // console.log(e.target.name)
@@ -34,7 +39,48 @@ let AddCourse = () => {
     console.log(e.target.value);
   };
 
+
+
+
+  let objectKeysToLowerCase = function (origObj) {
+    return Object.keys(origObj).reduce(function (newObj, key) {
+        let val = origObj[key];
+        let newVal = (typeof val === 'object') ? objectKeysToLowerCase(val) : val;
+        newObj[key.split(/[.\-_ ']/).join('').toLowerCase()] = newVal;
+        return newObj;
+    }, {});
+}
+
+const handleFile = (e)=>{
+  console.log("dd")
+  let file = e.target.files[0];
+  
+  let reader = new FileReader();
+  reader.readAsArrayBuffer(file)
+
+  reader.onload= (e)=>{
+       setBufferData(e.target.result);
+  }
+
+  
+
+}
+
   const handleSubmit = async () => {
+
+    const wb = XLSX.read(bufferData,{type:'buffer'})
+    const wsName = wb.SheetNames[0]
+    const ws = wb.Sheets[wsName]
+    var datafile = XLSX.utils.sheet_to_json(ws)
+    
+    datafile = objectKeysToLowerCase(datafile)
+    console.log(datafile)
+    setObjData(datafile)
+
+    const arr = Object.values(datafile)
+
+    console.log(arr)
+
     const post_data = {
       courseId,
       courseName,
@@ -42,6 +88,7 @@ let AddCourse = () => {
       branch,
       semester,
       facultyId,
+      students:arr
     };
 
     const res = await fetch("http://localhost:5000/addCourse", {
@@ -131,6 +178,18 @@ let AddCourse = () => {
               placeholder="Enter Faculty Id"
               name="facultyid"
               onChange={handleChange}
+            />
+
+            <label className={Styles.labl} for="faculty id">
+              Add students
+            </label>
+            <input
+              className={Styles.inp}
+              type="file"
+              onChange={handleFile}
+              placeholder="select students file"
+              name="facultyid"
+              // onChange={handleChange}
             />
 
             <button className={Styles.btn} onClick={handleSubmit}>
